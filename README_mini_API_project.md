@@ -14,6 +14,6 @@ Assignment Expectations:
 
 The way I approach this project is to generate pictures using Twitter API and for each image, I generate labels and superimpose them on each image. 
 Later, I use Ffmpeg to generate a video with pictures with descriptions.
-In the future, I wish i can change the fontsize of the labels and also display labels on the terminal as well.
+In the future, I wish i can change the fontsize of the labels within the video.
 
 Thank you for coming here and Please let me know if i have any issue or rooms to inmprove.
