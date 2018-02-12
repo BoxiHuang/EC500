@@ -16,4 +16,8 @@ The way I approach this project is to generate pictures using Twitter API and fo
 Later, I use Ffmpeg to generate a video with pictures with descriptions.
 In the future, I wish i can change the fontsize of the labels within the video.
 
+The User Guide:
+
+In order to use this API I design, please download the final version of the full code. Within this API code file, please insert your twitter tokens(access keys) and change the directory in order to save all the pictures in the local environment. After saving changes, run this python code in your terminal. It should download pictures automatically, print the labels of the downloaded pictures as well as generating a video with labeled pictures.
+
 Thank you for coming here and Please let me know if i have any issue or rooms to inmprove.
