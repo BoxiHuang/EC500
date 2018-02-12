@@ -3,12 +3,12 @@
 Hello World! Thank you for coming to Boris Huang's Github. I am currently a junior in Boston University studying Computer Engineering.
 So I enrolled in this class called EC500: Building Softwares 
 
-My first project is to learn how to use Twitter API and Google Vision API to do some data sorting, 
-eventually generate a video!
+My first project is to design my own API by combining Twitter API, Google Vision API and ffmpeg. This API project should
+eventually generate a video as output!
 
 Assignment Expectations:
 
-1. Download pictures from a twitter account to our local environment and 
+1. Download pictures from a twitter account to our local environment
 2. Use Google Vision API to generate the labels for each images
 3. Generate a video as output and dispaly labels in whatever way you wise.
 
