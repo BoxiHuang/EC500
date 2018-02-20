@@ -1,0 +1,17 @@
+from qicode import get_images
+
+def test1():
+	#initilize a variable to a string type
+	a =""
+	a += "<p>This is a tester code to do error control and see if they have no pictures or not </p>"
+	a += "test1: Checking if the basic function of the API works or not:"
+	trial = get_images("fake121eDonaldTrump")
+	a += "<p>" + str(trial) + "</p>"
+
+	return a;
+
+if __name__ == "__main__":
+	test1()
+
+
+

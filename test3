@@ -1,0 +1,32 @@
+from qicode import get_images
+
+def test3():
+	
+	start_time = test.time()
+	get_images('realDonaldTrump')
+	end_time = test.time()
+	run_time = end_time - start_time
+
+	#one more time with more tweets this time
+	start2 = test.time()
+	get_images('boxi_huang')
+	end2 = test.time()
+	run_time2 = end2 -start2
+
+
+	a= ""
+	a +="<p>This is a tester code to do error control and test their run time of the code with the test case of 100 tweets from President Trump</p>"
+	a += "Here is the result and data for the first time calculating the run time of the program with 50 tweets of an account"
+	a += "The end time of the first trial: "+ str(end_time)
+	a += "The start time of the first trial: " +str(start_time)
+	a += "The entire run time of the first trial: " + str(run_time)
+
+	a += "Here is another trial with 200 tweets from the same account (more tweets but I have the same twitter account as control variable"
+	a += "The end time of the second trial: " + str(end2)
+	a += "The start time of the second trial: " + str(start2)
+	a += "The overall run time of the second trial: " + str(run_time2)
+
+	return a;
+
+if __name__ == "__main__":
+	test3()

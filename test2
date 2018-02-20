@@ -1,0 +1,15 @@
+from qicode import get_images
+
+def test2():
+	a =""
+	a += "<p><This is test2 for testing how API handles the error if inputting an invalid number/p>"
+	a += "test2: Checking if the basic function of the API works or not:"
+	trial2 = get_images('boxi_huang')
+	a += "<p>"+str(trial2)+"</p>"
+
+	return a
+
+
+
+if __name__ == "__main__":
+	test2()
