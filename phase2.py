@@ -30,10 +30,10 @@ def main():
     twitter_username = input("Enter the twitter account name of the twitter account you want to download from: ")
      # Please change the * below to your twitter development access keys
 
-    consumer_key = 'NFDMpk1Fg8ceijtkGERJc2Z2a'
-    consumer_secret = '8tvTg2rnY53XzSdrpKFcZruVOSJSHWPdutwMRg6U8XddoqPx3y'
-    access_token = '956294196301791233-tzh1DeLpyEh3i7sVinidNTzUK7A6pRy'
-    access_secret = 'DCavGa4IkSQDviwhFimXzqYu2gELIQU6F5DtqErberFlT'
+    consumer_key = input("Enter the consumer_key:")
+    consumer_secret = input("Enter the consumer_secret:")
+    access_token = input("Enter the access_token:")
+    access_secret = input("Enter the access_secret:")
 
     @classmethod
     def parse(cls, api, raw):
