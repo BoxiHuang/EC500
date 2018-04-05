@@ -1,3 +1,6 @@
+
+#This is a code review for Qi Wang's Project 1 twitter API-Google Vision API-FFMPEG
+#Thank you for letting me code review
 import tweepy #https://github.com/tweepy/tweepy
 import json
 #boxiimport ffmpeg
