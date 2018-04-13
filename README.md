@@ -14,10 +14,10 @@ Download pictures from a twitter account to our local environment
 Use Google Vision API to generate the labels for each images
 Generate a video as output and dispaly labels in whatever way you wise.
 
-### Implementation:
+#### Implementation:
 The way I approach this project is to generate pictures using Twitter API and for each image, I generate labels and superimpose them on each image. Later, I use Ffmpeg to generate a video with pictures with descriptions. In the future, I wish I can change the fontsize of the labels within the video.
 
-### Database Project:
+#### Database Project:
 The purpose of this database project is to familiarize students with the concepts of Mongo database, Implementation of Mongo Database, MySQL as well as generating useful data according to users' requests.
 
 
