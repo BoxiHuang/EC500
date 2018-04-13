@@ -23,3 +23,4 @@ The purpose of this database project is to familiarize students with the concept
 
 ### Final Project:
 The purpose of the final project is to grant students an opportunity to build software application using Python (Or whatever language that fits the situation) with the implementation of API, Database as well as software component organization. The final project spans through the entire semester with Sprint 1-4 and several presentations and demos in front of the class. CE students not only learn to cooperate as a team, but also learn to improve technical public speaking skills through Demos/Presentation.
+Please find details about my final project in folder.
