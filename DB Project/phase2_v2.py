@@ -16,10 +16,10 @@ def module(twitter_handle, number_tweets):
     #----------------------------------------------------------------------------------------------------# 
 
     # Consumer Information
-    consumer_key = 'NFDMpk1Fg8ceijtkGERJc2Z2a'
-    consumer_secret = '8tvTg2rnY53XzSdrpKFcZruVOSJSHWPdutwMRg6U8XddoqPx3y'
-    access_token = '956294196301791233-tzh1DeLpyEh3i7sVinidNTzUK7A6pRy'
-    access_secret = 'DCavGa4IkSQDviwhFimXzqYu2gELIQU6F5DtqErberFlT'
+    #consumer_key = '*'
+    #consumer_secret = '*'
+    #access_token = '*'
+    # access_secret = '*'
      
     # Authorization
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -124,6 +124,11 @@ def search_database(picture_number, twitter_username):
 
 
 if __name__ == '__main__':
+    consumer_key = input("Please enter your twitter developer comsumer key: \n")
+    consumer_token = input("Please enter your twitter developer consumer_token: \n")
+    access_token = input("Please enter your twitter developer access token: \n")
+    access_secret = input("Please enter your twitter developer access secret: n")
+    
     twitter_username = input("Please enter the twitter handle you would like to search with: \n")
     tweet_num = input("Please input the number of tweet you would like to check: \n")
     labels_dict = module(twitter_username, tweet_num)
