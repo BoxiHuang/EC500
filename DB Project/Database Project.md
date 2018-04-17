@@ -43,11 +43,12 @@ Most popular descriptors Relationship between Google Trending terms and Twitter 
 
 #### HOW TO USE:
 Complie and run this code.
+Keep in mind, this version of phase 2 DB project uses MONGODB.
 Please enter your consumer access, consumer key, access token, access secret as guided in command line window.
 The module will then prompt the user to enter the twitter account name as well as the number of images. 
 As soon as these two pieces of information are pushed into the module, the code will start download pictures from designated twitter account 
 and run GOOGLE vision API to analyze each downloaded picture. And later ffmpeg is called and generated a video with all the pictures that are annotated. 
-In the assignment, a function which populates a database with all the annotations is called. 
+In the assignment, a function which populates a MONGO database with all the annotations is called. 
 
 # The data structure within the database:
 
