@@ -1,7 +1,7 @@
-Introduction file for DB project Phase 2: Mongo Database
-Phase 1 is within the file: Mongo.py
-Phase 2 is within the files: Phase2_v2.py (phase2 is my first try of Phase2)
-Phase 3 is within the file: TBD
+
+### Phase 1 is within the file: Mongo.py
+### Phase 2 is within the files: Phase2_v2.py (phase2 is my first try of Phase2)
+### Phase 3 is within the file: TBD
 
 
 # Phase 1:
