@@ -13,8 +13,7 @@ def generate_sqlDB(a, b):
 	# execute the command to fetch all the data from the table emp
 	crsr.execute('CREATE TABLE tweepy(twitter_account TEXT, Labels TEXT)') 
 
-	crsr.execute("INSERT INTO tweepy(twitter_account, Labels) VALUES (?, ?)", (twitter_account, Labels))
-
+	#crsr.execute("INSERT INTO tweepy(twitter_account, Labels) VALUES (?, ?)", (twitter_account, Labels))
 	# crsr.execute("INSERT INTO tweepy VALUES(1,'chicken')")
 	# crsr.execute("INSERT INTO tweepy VALUES(2,'cake')")
 	# crsr.execute("INSERT INTO tweepy VALUES(3,'dingdong')")	
