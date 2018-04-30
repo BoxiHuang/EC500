@@ -26,6 +26,7 @@ consumer_secret = '*'
 access_token = '*'
 access_secret = '*'
 
+#parse arguments
 @classmethod
 def parse(cls, api, raw):
     status = cls.first_parse(api, raw)
@@ -68,7 +69,7 @@ for status in tweets:
     media = status.entities.get('media', [])
     if(len(media) > 0):
         media_files.add(media[0]['media_url'])
- 
+#download the pcitures from twitter handles 
 for media_file in media_files:
     wget.download(media_file)
 
@@ -83,7 +84,7 @@ for item in media_files:
 
 #-------------------------------------------- Implementation of the google API and generate Labels-------------------------------
 
-
+#counter_two is used to generate new names to prepare for generating videos
 counter_two = 0
 client = vision.ImageAnnotatorClient()
 
@@ -100,7 +101,7 @@ for x in range(0, counter +1):
     response = client.label_detection(image=image)
     labels = response.label_annotations
     
-
+    #create labels and superimpose on pictures
     new = 'new' +str(counter_two)+'.jpg'
     image = Image.open(name)
     draw = ImageDraw.Draw(image)
@@ -117,7 +118,7 @@ for x in range(0, counter +1):
     os.system(newcommand)
 
 
-#    Using ffmpeg
+#    Using ffmpeg to generate a video for all the pictures with labels
 
 os.system("ffmpeg -framerate .5 -pattern_type glob -i '*.jpg' out.mp4")
 
